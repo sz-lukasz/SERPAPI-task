@@ -4,10 +4,6 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-# Removing existing files, to create new ones
-os.remove('final_results.json')
-os.remove('raw.html')
-os.remove('search_result.json')
 
 test_queries = ["Van Gogh paintings", "Banksy arts", "Picasso works"]
 # Parameters used in the initial search

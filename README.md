@@ -9,6 +9,13 @@ import requests
 from bs4 import BeautifulSoup
 import os
 ```
+
+## Make sure to update your API key!
+```
+# Please provide your own secret API key
+api_key = "<YOUR_SECRET_API_KEY>"
+```
+
 ## By default the code will extract Van Gogh paintings, however additional test scenarios has been added to test_queries array, that can be tested anytime:
 
 ```
